@@ -1,0 +1,128 @@
+{
+	"id": "6b6a87aa-a2fc-4bb6-9509-61f0a4f1bd76",
+	"name": "TestAPI",
+	"timestamp": "2022-09-17T14:02:15.602Z",
+	"collection_id": "7250603-0b3788ec-f4ba-4c2b-9d34-d8b29c575427",
+	"folder_id": 0,
+	"environment_id": "7250603-445dba00-cde3-41b0-9647-f47cbe6090fe",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2e04c44d-0485-4be3-9e81-c2bf698144a9",
+			"name": "GetUser",
+			"url": "https://reqres.in/api/users?page=1",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "784525b0-ed9a-4c9e-a883-0259166a0d02",
+			"name": "CreateUser",
+			"url": "https://reqres.in/api/users",
+			"time": 351,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				351
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74705eb7-40f0-4bb3-84f8-138362874cd8",
+			"name": "DeleteUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 607,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				607
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2f1569c5-9195-4382-8a48-5503ba0747ea",
+			"name": "PatchUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 554,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				554
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "90fa1592-d553-41b1-9c9a-7f0437dd9e57",
+			"name": "PutUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 552,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				552
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2144,
+	"collection": {
+		"requests": [
+			{
+				"id": "2e04c44d-0485-4be3-9e81-c2bf698144a9",
+				"method": "GET"
+			},
+			{
+				"id": "784525b0-ed9a-4c9e-a883-0259166a0d02",
+				"method": "POST"
+			},
+			{
+				"id": "74705eb7-40f0-4bb3-84f8-138362874cd8",
+				"method": "DELETE"
+			},
+			{
+				"id": "2f1569c5-9195-4382-8a48-5503ba0747ea",
+				"method": "PATCH"
+			},
+			{
+				"id": "90fa1592-d553-41b1-9c9a-7f0437dd9e57",
+				"method": "PUT"
+			}
+		]
+	}
+}
